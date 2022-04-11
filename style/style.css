@@ -1,0 +1,53 @@
+body {
+    background-image:url('../img/imgcafe.jpg'); 
+    border-image-width: 100% ;
+    background-size:cover;
+
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+    
+    
+}
+#cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#cardapio img{
+    padding: 5px;
+    width: 360px;
+    height: 220px;
+    border-radius: 60px;
+}
+
+#iten{
+    background-color:rgba(0, 0, 0, 0.507);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#iten p {
+    font-size: 14px;
+}
+#iten button{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    border:none ;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#iten button:hover{
+    background-color: rgb(255, 173, 80);
+}
